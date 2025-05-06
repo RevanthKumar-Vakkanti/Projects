@@ -21,7 +21,7 @@
 
 
 // 4-bit booths_Algorithm
-/*module booth_multiplier_4bit(
+module booth_multiplier_4bit(
     input signed [3:0] multiplicand,
     input signed [3:0] multiplier,
     output reg signed [7:0] product
@@ -51,7 +51,7 @@
         end
         product = {A, Q};
     end
-endmodule */
+endmodule
 
 
 // 8-bit booths_Algorithm
@@ -150,7 +150,7 @@ endmodule  */
 
 
 // N-bit booths_Algorithm
-module booth_multiplier_Nbit #(parameter N = 8)(
+/*module booth_multiplier_Nbit #(parameter N = 8)(
     input signed [N-1:0] multiplicand,
     input signed [N-1:0] multiplier,
     output reg signed [2*N-1:0] product
@@ -180,7 +180,7 @@ module booth_multiplier_Nbit #(parameter N = 8)(
 
         product = {A, Q};
     end
-endmodule
+endmodule*/
 
 
 
